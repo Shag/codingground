@@ -24,28 +24,6 @@ void push(node **head,int data)
   
 }
 
-/*void push(struct node** head_ref, int new_data)
-{
-   
-    struct node* new_node =
-            (struct node*) malloc(sizeof(struct node));
-  
-  
-    new_node->data  = new_data;
-     
-   
-    new_node->prev = NULL;
-  
-      
-    new_node->next = (*head_ref);    
- 
-   
-    if((*head_ref) !=  NULL)
-      (*head_ref)->prev = new_node ;    
-  
-   
-    (*head_ref)    = new_node;
-}*/
 
 void print_list(node *head)
 {
